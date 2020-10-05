@@ -12,3 +12,4 @@ def hello_():
 @bp.route('/')
 def index():
     return redirect(url_for('question._list'))
+
